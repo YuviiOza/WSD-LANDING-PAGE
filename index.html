@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dog Buddy Website</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="Gpt.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="logo">
+                <img src="assets\Images\Logo.png" alt="Logo">
+            </div>
+            <button class="mobile-donate-btn cta"><a style="text-decoration: none; color: white"
+                    href="https://rzp.io/l/HhD53F5c">DONATE</a></button>
+            <ul class="nav-links">
+                <li><a href="#AboutUsDiv">ABOUT</a></li>
+                <li><a href="#What-We-Do">WHAT WE DO</a></li>
+                <li><a href="#Contact-Us">CONTACT</a></li>
+                <li><a href="https://rzp.io/l/HhD53F5c" class="cta">DONATE</a></li>
+                <li><a href="#meet-buddies-section-cta-link" class="cta">Adopt</a></li>
+            </ul>
+        </nav>
+        <!-- MAIN SCROLL 1 -->
+        <div id="MainScroll1">
+            <!-- <div class="circle-background">
+                <img src="assets\Images\Banner2.png" alt="Dog Portrait" class="circle-image">
+            </div> -->
+            <div id="MainScroll1TextDiv">
+                <div id="HeadingText">
+                    <H1>The<br>
+                        Welfare of<Br>
+                        Stray Dogs</H1>
+                </div>
+                <div id="ParaText">
+                    <p>is a non-profit trust dedicated to helping street dogs.<br>
+                        It was established and registered in 1985, so as to stop<br> the mass culling of street dogs by
+                        the Brihanmumbai<br> Municipal
+                        Corporation.</p>
+                </div>
+                <div id="CtaBtnText">
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div id="MainScroll1PhotoDiv">
+                <img class="DesktopBanner" src="assets\Images\Aboli-BG.PNG">
+                <img class="MobileBanner" src="assets\Images\sunder-mobile-BG.png">
+            </div>
+
+        </div>
+        <div id="MainScroll1TextDiv2">
+            <div id="HeadingText2">
+                <H1>The
+                    Welfare of<Br>
+                    Stray Dogs</H1>
+            </div>
+            <div id="ParaText2">
+                <p>is a non-profit trust dedicated to helping street dogs.
+                    It was established and registered in 1985, so as to stop the mass culling of street dogs by
+                    the Brihanmumbai Municipal
+                    Corporation.</p>
+            </div>
+            <div id="CtaBtnText2">
+                <button>Know More</button>
+            </div>
+        </div>
+        <!-- SECOND SCROLL  -->
+        <!-- WHAT WE DO -->
+        <!-- <div id="WhatWeDoDiv">
+            <div id="WhatWeDoHeading">
+                <h2>What We Do</h2>
+            </div>
+            <div id="WhatWeDoOptions">
+                <div id="MassSter">
+
+                </div>
+            </div>
+        </div> -->
+        <!-- ABOUT US -->
+        <div id="AboutUsDiv">
+            <div class="AboutUsPic">
+                <img src="assets\Images\AboutUsPic.jpg">
+            </div>
+            <div class="AboutUsText">
+                <div class="AboutUsHeading">
+                    <h1 style="font-weight: bolder;">About Us</h1>
+                </div>
+                <div class="AboutUsPara">
+                    <p>Welfare for Stray Dogs is a non-profit trust dedicated to protecting and improving the lives of
+                        Mumbai's street dogs.
+                        Since 1985, we have been working tirelessly to provide rescue, medical care, sterilization, and
+                        vaccination programs
+                        that create a safer environment for both dogs and people.<br><br>Our mission began with stopping
+                        the
+                        mass culling of street
+                        dogs, and today, we continue to advocate for humane and sustainable solutions. Through our
+                        sterilization program,
+                        community engagement, and compassionate care, we have made a lasting impact across the city—from
+                        Cuffe Parade to Malad
+                        and Sion.</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- CTA SECTION -->
+        <div class="Cta-Section" id="Adopt-Us">
+            <div class="Cta-Section-Heading">
+                100 wagging tails are waiting for their forever home. Could yours be one of them?
+            </div>
+            <button class="Cta-Section-Btn">Adopt A friend</>
+        </div>
+        <!-- STATISTICS -->
+        <section id="stats-section">
+            <div class="stats-content">
+                <!-- Left-side Main Count -->
+                <div class="main-stat">
+                    <h1><span style="font-size: 10rem" class=" count" data-target="150000">0</span>*</h1>
+                    <p>Lives Touched</p>
+                </div>
+
+                <!-- Bottom Stats -->
+                <div class="stats">
+                    <div class="stat">
+                        <h2><span class="count" data-target="56500" ;">0</span></h2>
+                        <p>Sterilised</p>
+                    </div>
+                    <div class="stat">
+                        <h2><span class="count" data-target="20000">0</span>+</h2>
+                        <p>Immunized against rabies</p>
+                    </div>
+                    <div class="stat">
+                        <h2><span class="count" data-target="70000">0</span>+</h2>
+                        <p>Treated on site</p>
+                    </div>
+                    <div class="stat">
+                        <h2><span class="count" data-target="600">0</span></h2>
+                        <p>Adoptions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHAT WE DO -->
+        <div class="what-we-do" id="What-We-Do">
+            <div class="section-heading">What We Do</div>
+
+            <div class="accordion-container">
+                <!-- Mass Sterilisation (Initially Open) -->
+                <div class="accordion-item active" onclick="toggleAccordion(this)">
+                    <div class="accordion-header">Mass Sterilisation</div>
+                    <div class="accordion-content">
+                        <div class="text-section">
+                            <h2>Mass </br> Sterilisation</h2>
+                            <div class="What-We-Do-Card-Line"></div>
+                            <p>Our humane sterilisation program, run in partnership with Mumbai’s civic body, helps
+                                control the street dog population
+                                through safe surgeries, vaccinations, and community collaboration. The impact is visible
+                                across neighborhoods we serve.</p>
+                            <span class="read-more">Know More</span>
+                        </div>
+                        <div class="image-section">
+                            <img src="assets\Images\mass-steralisation.jpg" alt="Mass Sterilisation">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rabies Vaccination -->
+                <div class="accordion-item" onclick="toggleAccordion(this)">
+                    <div class="accordion-header">Rabies Vaccination</div>
+                    <div class="accordion-content">
+                        <div class="text-section">
+                            <h2>Rabies</br>Vaccination</h2>
+                            <div class="What-We-Do-Card-Line"></div>
+                            <p>We follow WHO guidelines, conducting mass anti-rabies vaccination drives across Mumbai.
+                                Every dog sterilised is
+                                vaccinated, and weekly drives ensure wide coverage. With over 80,000 dogs vaccinated and
+                                strict safety standards
+                                followed, we also spread awareness through public education to help build safer
+                                communities.</p>
+                            <span class="read-more">Know More</span>
+                        </div>
+                        <div class="image-section">
+                            <img src="assets\Images\Rabies-vaccination.jpg" alt="Rabies Vaccination">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OPD -->
+                <div class="accordion-item" onclick="toggleAccordion(this)">
+                    <div class="accordion-header">OPD</div>
+                    <div class="accordion-content">
+                        <div class="text-section">
+                            <h2>OPD</h2>
+                            <div class="What-We-Do-Card-Line"></div>
+                            <p>WSD’s OPD at Sewri offers free treatment for sick and injured street animals from 10 AM
+                                to 4 PM. Pathological tests,
+                                surgeries, and even orthopedic procedures are done by expert vets. Many animal lovers
+                                regularly bring in street animals
+                                for care and recovery.</p>
+                            <span class="read-more">Know More</span>
+                        </div>
+                        <div class="image-section">
+                            <img src="assets\Images\OPD.jpg" alt="OPD">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- On-site First Aid -->
+                <div class="accordion-item" onclick="toggleAccordion(this)">
+                    <div class="accordion-header">On-site First Aid</div>
+                    <div class="accordion-content">
+                        <div class="text-section">
+                            <h2>On-site </br>First Aid</h2>
+                            <div class="What-We-Do-Card-Line"></div>
+                            <p>Our field team treats hundreds of injured and sick street animals right in their own
+                                territory, reducing stress and
+                                aiding faster recovery. Serious cases are brought to our Mahalaxmi Centre. With trained
+                                nurses, volunteers, and
+                                ambulances, we respond daily to calls across the city.</p>
+                            <span class="read-more">Know More</span>
+                        </div>
+                        <div class="image-section">
+                            <img src="assets\Images\On-site.jpg" alt="On-site First Aid">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Health Care -->
+                <div class="accordion-item" onclick="toggleAccordion(this)">
+                    <div class="accordion-header">Health Care</div>
+                    <div class="accordion-content">
+                        <div class="text-section">
+                            <h2>Health Care</h2>
+                            <div class="What-We-Do-Card-Line"></div>
+                            <p>From free OPD services and in-kennel care to a weekly homeopathy clinic and first-aid
+                                workshops, WSD provides holistic
+                                treatment to street animals. We manage both minor and serious cases with compassion,
+                                offering surgeries, diagnostics,
+                                and support through trained vets, visiting specialists, and dedicated volunteers.</p>
+                            <span class="read-more">Know More</span>
+                        </div>
+                        <div class="image-section">
+                            <img src="assets\Images\health-care.jpg" alt="Health Care">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="accordion-item" onclick="toggleAccordion(this)">
+                    <div class="accordion-header">Education</div>
+                    <div class="accordion-content">
+                        <div class="text-section">
+                            <h2>Education</h2>
+                            <div class="What-We-Do-Card-Line"></div>
+                            <p>We believe that public acceptance is critical to the success of the sterilisation
+                                program.
+                                Our education program reaches out to different sections of the public and explains the
+                                benefits of sterilising dogs. It is also an important tool in the rabies eradication
+                                project,
+                                as we use it to communicate important informationabout rabies and its prevention.</p>
+                            <span class="read-more">Know More</span>
+                        </div>
+                        <div class="image-section">
+                            <img src="assets\Images\Education.jpeg" alt="Education">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Adoption -->
+                <div class="accordion-item" onclick="toggleAccordion(this)">
+                    <div class="accordion-header">Adoption</div>
+                    <div class="accordion-content">
+                        <div class="text-section">
+                            <h2>Adoption</h2>
+                            <div class="What-We-Do-Card-Line"></div>
+                            <p>We rehome abandoned pets and Indies through a thoughtful, child-like adoption process.
+                                Every adopter is screened,
+                                interviewed, and encouraged to bond with their chosen dog. Temperament tests ensure the
+                                right match, and all dogs over 3
+                                months are vaccinated before going to a loving, responsible home.</p>
+                            <span class="read-more">Know More</span>
+                        </div>
+                        <div class="image-section">
+                            <img src="assets\Images\Adoption.jpg" alt="Adoption">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- SUPPORT US SECTION -->
+        <section class="support-us-section">
+            <div class="support-us-content">
+                <h2>Support Us</h2>
+                <div class="support-cards-container">
+                    <div class="support-card">
+                        <div class="support-icon">
+                            <img src="assets\Icons\Donation.png" alt="Donation Icon">
+                        </div>
+                        <h3>Make a Donation</h3>
+                        <p>Love for animals is of course what drives volunteers to WSD. But more importantly, it is the
+                            ability to
+                            act rationally and responsibly that makes them truly valuable.</p>
+                        <button class="donate-btn"><a style="text-decoration: none; color: white"
+                                href="https://rzp.io/l/HhD53F5c">DONATE</a></button>
+                    </div>
+
+                    <div class="support-card">
+                        <div class="support-icon">
+                            <img style="height: 60px;" src="assets\Icons\Volunteer.png" alt="Volunteer Icon">
+                        </div>
+                        <h3>Become a Volunteer</h3>
+                        <p>Love for animals is of course what drives volunteers to WSD. But more importantly, it is the
+                            ability to
+                            act rationally and responsibly that makes them truly valuable.</p>
+                        <button class="volunteer-btn">VOLUNTEER</button>
+                    </div>
+
+                    <div class="support-card">
+                        <div class="support-icon">
+                            <img src="assets\Icons\Kennel.png" alt="Adopt Icon">
+                        </div>
+                        <h3>Adopt a Buddy</h3>
+                        <p>Love for animals is of course what drives volunteers to WSD. But more importantly, it is the
+                            ability to
+                            act rationally and responsibly that makes them truly valuable.</p>
+                        <button class="adopt-btn">ADOPT</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIDEO SECTION -->
+        <!-- VIDEO SECTION -->
+        <section class="video-section">
+            <div class="video-container">
+                <h2>Watch Our Story</h2>
+                <div class="video-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/X5CdtUOUXkM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEET OUR BUDDIES -->
+        <!-- <Div class="Meet-Our-Buddies-Section">
+            
+             <div class="Mob-Heading">
+                <h2>Meet Our Buddies</h2>
+             </div>
+
+             <div>
+                
+             </div>
+
+        </Div> -->
+        <div id="meet-buddies-section-cta-link" class="meet-buddies-section">
+            <h2>Meet Our Furry Friends</h2>
+            <div class="buddies-carousel-container">
+                <div class="buddies-carousel-track">
+                    <!-- Buddy Cards -->
+                    <div class="buddy-card">
+                        <div class="buddy-image">
+                            <img src="assets/Images/Aboli.jpg" alt="Aboli-Pic">
+                        </div>
+                        <div class="buddy-details">
+                            <h3>Aboli</h3>
+                            <p>Aboli is a 3-year-old friendly girl who loves people and squeaky toys. Named after a
+                                flower, she brings joy and
+                                brightness to any home that adopts her.</p>
+                        </div>
+                    </div>
+
+                    <div class="buddy-card">
+                        <div class="buddy-image">
+                            <img src="assets/Images/Cookie.jpg" alt="Cookie-Pic">
+                        </div>
+                        <div class="buddy-details">
+                            <h3>Cookie</h3>
+                            <p>Cookie is a sweet 2-year-old snuggle bug who loves toys and cuddles. Affectionate by
+                                nature, she enjoys spending time
+                                with her bestie, Sweety.
+                        </div>
+                    </div>
+
+                    <div class="buddy-card">
+                        <div class="buddy-image">
+                            <img src="assets/Images/Kiran.jpg" alt="Kiran-Pic">
+                        </div>
+                        <div class="buddy-details">
+                            <h3>Kiran</h3>
+                            <p>Kiran is a playful, curious pup who loves toys and greets you with happy paws. True to
+                                her name, she’ll light up any forever home just like her bestie Aboli.</p>
+                        </div>
+                    </div>
+                    <div class="buddy-card">
+                        <div class="buddy-image">
+                            <img src="assets/Images/Kajal.jpg" alt="Kajal-Pic">
+                        </div>
+                        <div class="buddy-details">
+                            <h3>Kajal</h3>
+                            <p>Kajal is affectionate, sassy, and full of personality. She loves attention and will bring
+                                colour and joy to any family
+                                that adopts her.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="buddy-card">
+                        <div class="buddy-image">
+                            <img src="assets/Images/Sandy.jpg" alt="Sandy-Pic">
+                        </div>
+                        <div class="buddy-details">
+                            <h3>Sandy</h3>
+                            <p>Sandy is a shy but loving young dog who enjoys toys, walks, and hanging out with his pals
+                                Sweety and Cookie.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="buddy-card">
+                        <div class="buddy-image">
+                            <img src="assets/Images/Sundar.jpg" alt="Sunder-Pic">
+                        </div>
+                        <div class="buddy-details">
+                            <h3>Sunder</h3>
+                            <p>Sunny-tempered Sunder loves greeting visitors and playing tug of war. At around 2 years
+                                old, he turns every walk into a
+                                fun run.</p>
+                        </div>
+                    </div>
+
+                    <div class="buddy-card">
+                        <div class="buddy-image">
+                            <img src="assets/Images/Reagan.jpg" alt="Regan-Pic">
+                        </div>
+                        <div class="buddy-details">
+                            <h3>Reagan</h3>
+                            <p>Aboli’s best friend, this senior boy is smart, outdoorsy, and adores people. A true
+                                foodie and camera lover, he’ll pose
+                                for every photo.</p>
+                        </div>
+                    </div>
+
+                    <div class="buddy-card">
+                        <div class="buddy-image">
+                            <img src="assets/Images/Fluffy.jpg" alt="Fluffy-Pic">
+                        </div>
+                        <div class="buddy-details">
+                            <h3>Fluffy</h3>
+                            <p>Affectionate and energetic, 3-year-old Fluffy—our “Dancing Dog”—loves visitors, squeaky
+                                toys, and guitar tunes. She
+                                thrives solo and loves training time.</p>
+                        </div>
+                    </div>
+
+                    <div class="buddy-card">
+                        <div class="buddy-image">
+                            <img src="assets/Images/Enzo.jpg" alt="Enzo-Pic">
+                        </div>
+                        <div class="buddy-details">
+                            <h3>Enzo</h3>
+                            <p>Enzo is a confident 3-year-old who warms up with patience and gentleness. He loves long
+                                walks, car rides, and getting to
+                                know his people.</p>
+                        </div>
+                    </div>
+
+                    <div class="buddy-card">
+                        <div class="buddy-image">
+                            <img src="assets/Images/Tiger.jpg" alt="Tiger-Pic">
+                        </div>
+                        <div class="buddy-details">
+                            <h3>Tiger</h3>
+                            <p>Tiger is a bright, sharp 2-year-old who bonds quickly once comfortable. He loves playing
+                                with volunteers and learns new
+                                tricks in no time.</p>
+                        </div>
+                    </div>
+                    <!-- Add more buddy cards as needed -->
+                </div>
+
+                <!-- Navigation Buttons -->
+                <button class="buddies-carousel-prev">&#10094;</button>
+                <button class="buddies-carousel-next">&#10095;</button>
+            </div>
+        </div>
+
+        <!-- </div> -->
+        <!-- OUR TEAM -->
+        <section class="our-team-section">
+            <div class="team-carousel-container">
+                <h2>Our Team</h2>
+                <div class="team-carousel-track">
+                    <!-- Team Member Cards -->
+                    <div class="team-member-card">
+                        <div class="team-member-image">
+                            <img src="assets\Images\Abodh-Aras.jpg" alt="Abodh-CEO-PIC">
+                        </div>
+                        <div class="team-member-details">
+                            <h3>Mr. Abodh Aras</h3>
+                            <p>CEO</p>
+                        </div>
+                    </div>
+
+                    <div class="team-member-card">
+                        <div class="team-member-image">
+                            <img src="assets\Images\Daisy-Sidhwa.jpg" alt="Daisy-Sidhwa-Pic">
+                        </div>
+                        <div class="team-member-details">
+                            <h3>Mrs. Daisy Sidhwa</h3>
+                            <p>Trustee and Project manager</p>
+                        </div>
+                    </div>
+
+                    <div class="team-member-card">
+                        <div class="team-member-image">
+                            <img src="assets\Images\Mayur-Jadhav.jpg" alt="Mayur-Pic">
+                        </div>
+                        <div class="team-member-details">
+                            <h3>Mr. Mayur Jadhav</h3>
+                            <p>Sr. Centre Manager</p>
+                        </div>
+                    </div>
+
+                    <div class="team-member-card">
+                        <div class="team-member-image">
+                            <img src="assets\Images\Vishal-Joshi.jpg" alt="Vishal-Pic">
+                        </div>
+                        <div class="team-member-details">
+                            <h3>Mr. Vishal Joshi</h3>
+                            <p>Volunteer Manager</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Add more team members as needed -->
+                </div>
+
+                <!-- Navigation Buttons -->
+                <button class="team-carousel-prev">&#10094;</button>
+                <button class="team-carousel-next">&#10095;</button>
+            </div>
+        </section>
+
+        <footer>
+            <div class="Footer-Main-Div">
+                <div style="display:flex; justify-content: center;" class="Footer-Cards">
+                    <img class="Footer-Logo" src="assets\Images\Logo.png">
+                </div>
+                <div class="Footer-Cards Footer-Address">
+                    <p style="font-size: 27px; font-weight:400">ADDRESS!!</p>
+                    <p>The Welfare of Stray Dogs
+                        C/o Mr F Broacha,
+                        2nd Floor, Yeshwant Chambers
+                        B Bharucha Marg
+                        Kala Ghoda
+                        Mumbai 400 033.</p>
+                </div>
+                <div class="Footer-Cards">
+                    <p style="font-size: 27px; font-weight:400">REACH OUT !!</p>
+                    <p>wsd@wsd.com</p>
+                    <p>+91 98192 46953</p>
+                </div>
+                <div class="Footer-Cards">
+                    <p style="font-size: 27px; font-weight:400">FOLLOW !!</p>
+                    <p><a style="text-decoration: none; color:black" href="https://www.instagram.com/wsdindia"
+                            target="_blank" rel="noopener noreferrer">Instagram</a></p>
+                    <p>Facebook</p>
+                    <p>Twitter</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="Landing.js"></script>
+    </body>
+
+</html>
